@@ -1,6 +1,6 @@
 # Scala Meta Macro inspection bug
 
-Scala Plugin Version: Nightly 2017.2.618
+Scala Plugin Version: Nightly 2017.2.618  
 IntelliJ Idea Version: EAP 2017.2.4
 
 ### Steps to reproduce
