@@ -1,7 +1,12 @@
 # Scala Meta Macro inspection bug
 
+Scala Plugin Version: Nightly 2017.2.618
+IntelliJ Idea Version: EAP 2017.2.4
+
 ### Steps to reproduce
 1. Clone project
-2. Open in Idea 2017.2 (Scala Plugin Nightly 2017.1.826)
-3. Got to `src/main/scala/repro/GoodCodeRed.scala`
-4. See red code on line 12
+1. Open in Idea
+1. Got to `src/main/scala/repro/MacroFail.scala`
+1. Try to expand `@algebra` annotation
+1. Try not to cry
+1. Cry a lot :(
