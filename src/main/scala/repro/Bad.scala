@@ -1,7 +1,7 @@
 package repro
 
 import io.aecor.liberator.macros.algebra
-
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 @algebra('k)
