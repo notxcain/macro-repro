@@ -7,4 +7,5 @@ IntelliJ Idea Version: EAP 2017.3
 1. Clone project
 1. Open in Idea
 1. Got to `src/main/scala/repro/Bad.scala`
-1. See line `20`. `bad.bar("1")` is inferred to `F[Unit]`, should be `Future[Unit]` as on line `23`
+1. See line `16`. Good code red.
+1. See line `26`. `bad.bar("1")` is inferred to `F[Unit]`, should be `Future[Unit]` as on line `29`

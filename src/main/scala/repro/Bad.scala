@@ -1,6 +1,7 @@
 package repro
 
 import io.aecor.liberator.macros.algebra
+
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
@@ -8,6 +9,11 @@ import scala.concurrent.Future
 trait Bad[F[_]] {
   def foo(k: String): F[Unit]
   def bar(k: String): F[Unit]
+}
+
+object Bad {
+  sealed abstract class Root
+  case object Foo extends Root
 }
 
 trait Good[F[_]] {
